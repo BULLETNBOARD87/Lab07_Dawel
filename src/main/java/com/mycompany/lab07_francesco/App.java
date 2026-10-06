@@ -69,10 +69,9 @@ public class App extends Application {
             pt.pause();
         });
 
-
-
         Scene scene = new Scene(root, 640, 480);
         stage.setScene(scene);
+        stage.setTitle("Ball on Rectangle Animation Test");
         stage.show();
     }
 
